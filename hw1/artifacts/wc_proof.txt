@@ -1,0 +1,25 @@
+### сценарии с файлами и stdin
+
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ python3 wc.py nl.py tail.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+  19   46  435 nl.py
+  20   55  573 tail.py
+  39  101 1008 total
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ wc nl.py tail.py > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+  19   46  435 nl.py
+  20   55  573 tail.py
+  39  101 1008 total
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/manual_utilite.out ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat nl.py | python3 wc.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+     19      46     435
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat nl.py | wc > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+     19      46     435
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/manual_utilite.out ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$

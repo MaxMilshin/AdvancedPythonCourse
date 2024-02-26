@@ -1,0 +1,160 @@
+### сценарий с файлом
+
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ python3 nl.py wc.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+     1  import sys
+     2  import os
+     3
+     4  def wc(files):
+     5      total_lines = 0
+     6      total_words = 0
+     7      total_symbols = 0
+     8
+     9      if not files:
+    10          lines = sys.stdin.readlines()
+    11          print(lines)
+    12          exit(0)
+    13          # lines = text.split('\n')
+    14          # print(lines)
+    15          words = ' '.join(lines).split()
+    16          symbols = sum(len(line) for line in lines)
+    17          total_lines += len(lines)
+    18          total_words += len(words)
+    19          total_symbols += symbols
+    20
+    21          print(f"   {total_lines}   {total_words} {total_symbols}")
+    22      else:
+    23          for file in files:
+    24              with open(file, 'r') as f:
+    25                  text = f.read()
+    26                  print(text)
+    27                  exit(0)
+    28                  lines = f.readlines()
+    29                  print(lines)
+    30                  exit(0)
+    31                  symbol_count = sum(len(line) + 1 for line in lines)
+    32                  words = ' '.join(lines).split()
+    33                  total_lines += len(lines)
+    34                  total_words += len(words)
+    35                  total_symbols += symbol_count
+    36
+    37                  print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+    38
+    39          if len(files) > 1:
+    40              print(f" {total_lines}  {total_words} {total_symbols} total")
+    41
+    42  if __name__ == "__main__":
+    43      if len(sys.argv) > 1:
+    44          wc(sys.argv[1:])
+    45      else:
+    46          wc([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ nl -b a wc.py > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+     1  import sys
+     2  import os
+     3
+     4  def wc(files):
+     5      total_lines = 0
+     6      total_words = 0
+     7      total_symbols = 0
+     8
+     9      if not files:
+    10          lines = sys.stdin.readlines()
+    11          print(lines)
+    12          exit(0)
+    13          # lines = text.split('\n')
+    14          # print(lines)
+    15          words = ' '.join(lines).split()
+    16          symbols = sum(len(line) for line in lines)
+    17          total_lines += len(lines)
+    18          total_words += len(words)
+    19          total_symbols += symbols
+    20
+    21          print(f"   {total_lines}   {total_words} {total_symbols}")
+    22      else:
+    23          for file in files:
+    24              with open(file, 'r') as f:
+    25                  text = f.read()
+    26                  print(text)
+    27                  exit(0)
+    28                  lines = f.readlines()
+    29                  print(lines)
+    30                  exit(0)
+    31                  symbol_count = sum(len(line) + 1 for line in lines)
+    32                  words = ' '.join(lines).split()
+    33                  total_lines += len(lines)
+    34                  total_words += len(words)
+    35                  total_symbols += symbol_count
+    36
+    37                  print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+    38
+    39          if len(files) > 1:
+    40              print(f" {total_lines}  {total_words} {total_symbols} total")
+    41
+    42  if __name__ == "__main__":
+    43      if len(sys.argv) > 1:
+    44          wc(sys.argv[1:])
+    45      else:
+    46          wc([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/manual_utilite.out ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+
+# видно, что diff пустой
+
+
+
+
+
+
+
+
+### сценарий с stdin
+
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat tail.py | python3 nl.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+     1  import sys
+     2
+     3  def tail(files):
+     4      if not files:
+     5          lines = sys.stdin.readlines()
+     6          print(''.join(lines[-17:]), end='')
+     7      else:
+     8          for i, file in enumerate(files):
+     9              print(f"==> {file} <==")
+    10              with open(file, 'r') as f:
+    11                  lines = list(map(lambda x : x[:-1] + '\r\n', f.readlines()))
+    12                  print(''.join(lines[-10:]), end='')
+    13              if i != len(files) - 1:
+    14                  print()
+    15
+    16  if __name__ == "__main__":
+    17      if len(sys.argv) > 1:
+    18          tail(sys.argv[1:])
+    19      else:
+    20          tail([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat tail.py | nl -b a > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+     1  import sys
+     2
+     3  def tail(files):
+     4      if not files:
+     5          lines = sys.stdin.readlines()
+     6          print(''.join(lines[-17:]), end='')
+     7      else:
+     8          for i, file in enumerate(files):
+     9              print(f"==> {file} <==")
+    10              with open(file, 'r') as f:
+    11                  lines = list(map(lambda x : x[:-1] + '\r\n', f.readlines()))
+    12                  print(''.join(lines[-10:]), end='')
+    13              if i != len(files) - 1:
+    14                  print()
+    15
+    16  if __name__ == "__main__":
+    17      if len(sys.argv) > 1:
+    18          tail(sys.argv[1:])
+    19      else:
+    20          tail([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/manual_utilite.out ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+
+# diff пустой снова

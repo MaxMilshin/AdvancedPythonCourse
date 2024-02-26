@@ -1,0 +1,132 @@
+### сценарий с файлами
+
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ python3 tail.py tail.py wc.py nl.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+==> tail.py <==
+                lines = list(map(lambda x : x[:-1] + '\r\n', f.readlines()))
+                print(''.join(lines[-10:]), end='')
+            if i != len(files) - 1:
+                print()
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        tail(sys.argv[1:])
+    else:
+        tail([])
+
+==> wc.py <==
+                print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+
+        if len(files) > 1:
+            print(f" {total_lines}  {total_words} {total_symbols} total")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        wc(sys.argv[1:])
+    else:
+        wc([])
+
+==> nl.py <==
+        while True:
+            s = input()
+            print(f"\t{num}\t{s}")
+            num += 1
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        nl(sys.argv[1])
+    else:
+        nl()
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ tail tail.py wc.py nl.py > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+==> tail.py <==
+                lines = list(map(lambda x : x[:-1] + '\r\n', f.readlines()))
+                print(''.join(lines[-10:]), end='')
+            if i != len(files) - 1:
+                print()
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        tail(sys.argv[1:])
+    else:
+        tail([])
+
+==> wc.py <==
+                print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+
+        if len(files) > 1:
+            print(f" {total_lines}  {total_words} {total_symbols} total")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        wc(sys.argv[1:])
+    else:
+        wc([])
+
+==> nl.py <==
+        while True:
+            s = input()
+            print(f"\t{num}\t{s}")
+            num += 1
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        nl(sys.argv[1])
+    else:
+        nl()
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/utilite.out ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$
+
+# видно, что diff пустой
+
+
+
+
+
+
+
+
+### сценарий с stdin
+
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat wc.py | python3 tail.py > ../tmp/manual_utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/manual_utilite.out
+                exit(0)
+                symbol_count = sum(len(line) + 1 for line in lines)
+                words = ' '.join(lines).split()
+                total_lines += len(lines)
+                total_words += len(words)
+                total_symbols += symbol_count
+
+                print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+
+        if len(files) > 1:
+            print(f" {total_lines}  {total_words} {total_symbols} total")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        wc(sys.argv[1:])
+    else:
+        wc([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat wc.py | tail > ../tmp/utilite.out
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ cat ../tmp/utilite.out
+                print(f" {len(lines)}  {len(words)} {symbol_count} {file}")
+
+        if len(files) > 1:
+            print(f" {total_lines}  {total_words} {total_symbols} total")
+
+if __name__ == "__main__":
+    if len(sys.argv) > 1:
+        wc(sys.argv[1:])
+    else:
+        wc([])
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw1/source$ diff ../tmp/utilite.out ../tmp/manual_utilite.out
+0a1,7
+>                 exit(0)
+>                 symbol_count = sum(len(line) + 1 for line in lines)
+>                 words = ' '.join(lines).split()
+>                 total_lines += len(lines)
+>                 total_words += len(words)
+>                 total_symbols += symbol_count
+>
+
+# ну видно, что diff непустой, потому что наша утилита выводит 17 последних строк, а встроенная 10 (но форматы в целом совпадают)
