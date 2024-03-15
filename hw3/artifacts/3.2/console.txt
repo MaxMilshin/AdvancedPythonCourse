@@ -1,0 +1,30 @@
+maxonchik@maxbook:~/work/AdvancedPythonCourse/hw3/src$ python3 second.py
+Object 1:
+5 0 3
+3 7 9
+3 5 2
+
+Object 2:
+4 7 6
+8 8 1
+6 7 7
+
+Addition Result:
+9  7  9
+11 15 10
+9  12 9
+
+Subtraction Result:
+1  -7 -3
+-5 -1 8
+-3 -2 -5
+
+Multiplication Result:
+20 0  18
+24 56 9
+18 35 14
+
+Division Result:
+1.25               0.0                0.5
+0.375              0.875              9.0
+0.5                0.7142857142857143 0.2857142857142857
