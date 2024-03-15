@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: latexgen
+Version: 0.0.3
+Summary: Simple LATEX generation
+Author: Maxonchik2003
+Author-email: Maxonchik2003@yandex.ru
+Keywords: python,latex
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
