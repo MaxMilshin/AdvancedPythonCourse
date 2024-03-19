@@ -1,0 +1,80 @@
+
+
+Time measurements for 1 N_JOBS:
+For method integrate_with_multuple_threads: 0.009535074234008789s
+For method integrate_with_multuple_processes: 0.015999794006347656s
+
+
+Time measurements for 2 N_JOBS:
+For method integrate_with_multuple_threads: 0.010218620300292969s
+For method integrate_with_multuple_processes: 0.010330677032470703s
+
+
+Time measurements for 3 N_JOBS:
+For method integrate_with_multuple_threads: 0.015445470809936523s
+For method integrate_with_multuple_processes: 0.009359359741210938s
+
+
+Time measurements for 4 N_JOBS:
+For method integrate_with_multuple_threads: 0.011671781539916992s
+For method integrate_with_multuple_processes: 0.009916305541992188s
+
+
+Time measurements for 5 N_JOBS:
+For method integrate_with_multuple_threads: 0.018492460250854492s
+For method integrate_with_multuple_processes: 0.011069059371948242s
+
+
+Time measurements for 6 N_JOBS:
+For method integrate_with_multuple_threads: 0.02285313606262207s
+For method integrate_with_multuple_processes: 0.01131439208984375s
+
+
+Time measurements for 7 N_JOBS:
+For method integrate_with_multuple_threads: 0.0245516300201416s
+For method integrate_with_multuple_processes: 0.012269735336303711s
+
+
+Time measurements for 8 N_JOBS:
+For method integrate_with_multuple_threads: 0.026387929916381836s
+For method integrate_with_multuple_processes: 0.013762712478637695s
+
+
+Time measurements for 9 N_JOBS:
+For method integrate_with_multuple_threads: 0.029964208602905273s
+For method integrate_with_multuple_processes: 0.014428138732910156s
+
+
+Time measurements for 10 N_JOBS:
+For method integrate_with_multuple_threads: 0.02909088134765625s
+For method integrate_with_multuple_processes: 0.01688551902770996s
+
+
+Time measurements for 11 N_JOBS:
+For method integrate_with_multuple_threads: 0.02968573570251465s
+For method integrate_with_multuple_processes: 0.017072677612304688s
+
+
+Time measurements for 12 N_JOBS:
+For method integrate_with_multuple_threads: 0.035225868225097656s
+For method integrate_with_multuple_processes: 0.01788043975830078s
+
+
+Time measurements for 13 N_JOBS:
+For method integrate_with_multuple_threads: 0.0359797477722168s
+For method integrate_with_multuple_processes: 0.01903986930847168s
+
+
+Time measurements for 14 N_JOBS:
+For method integrate_with_multuple_threads: 0.04031825065612793s
+For method integrate_with_multuple_processes: 0.023122549057006836s
+
+
+Time measurements for 15 N_JOBS:
+For method integrate_with_multuple_threads: 0.0348050594329834s
+For method integrate_with_multuple_processes: 0.02375483512878418s
+
+
+Time measurements for 16 N_JOBS:
+For method integrate_with_multuple_threads: 0.025323152542114258s
+For method integrate_with_multuple_processes: 0.02128767967224121s

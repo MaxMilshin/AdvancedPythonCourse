@@ -1,0 +1,246 @@
+2024-03-19 20:03:34,473  MAIN PROCESS: string 'WHAAAAHHH' (id: 0) was read from stdin and put in the queue
+2024-03-19 20:03:34,474     A PROCESS: string 'WHAAAAHHH' (id: 0) was extracted from the queue
+2024-03-19 20:03:34,475     A PROCESS: string 'whaaaahhh' (id: 0) was send to process B
+2024-03-19 20:03:34,475     B PROCESS: string 'whaaaahhh' (id: 0) was received from process A
+2024-03-19 20:03:34,476     B PROCESS: string 'junnnnuuu' (id: 0) was send to main process
+2024-03-19 20:03:34,477  MAIN PROCESS: string 'junnnnuuu' (id: 0) was received from process B and printed in the stdout
+2024-03-19 20:03:37,662  MAIN PROCESS: string 'HOMIXIDE' (id: 1) was read from stdin and put in the queue
+2024-03-19 20:03:39,480     A PROCESS: string 'HOMIXIDE' (id: 1) was extracted from the queue
+2024-03-19 20:03:39,481     A PROCESS: string 'homixide' (id: 1) was send to process B
+2024-03-19 20:03:39,481     B PROCESS: string 'homixide' (id: 1) was received from process A
+2024-03-19 20:03:39,487     B PROCESS: string 'ubzvkvqr' (id: 1) was send to main process
+2024-03-19 20:03:39,487  MAIN PROCESS: string 'ubzvkvqr' (id: 1) was received from process B and printed in the stdout
+2024-03-19 20:03:40,704  MAIN PROCESS: string 'WHAAAAH' (id: 2) was read from stdin and put in the queue
+2024-03-19 20:03:44,082  MAIN PROCESS: string 'WHAT?' (id: 3) was read from stdin and put in the queue
+2024-03-19 20:03:44,492     A PROCESS: string 'WHAAAAH' (id: 2) was extracted from the queue
+2024-03-19 20:03:44,492     A PROCESS: string 'whaaaah' (id: 2) was send to process B
+2024-03-19 20:03:44,493     B PROCESS: string 'whaaaah' (id: 2) was received from process A
+2024-03-19 20:03:44,497     B PROCESS: string 'junnnnu' (id: 2) was send to main process
+2024-03-19 20:03:44,497  MAIN PROCESS: string 'junnnnu' (id: 2) was received from process B and printed in the stdout
+2024-03-19 20:03:46,445  MAIN PROCESS: string 'carti' (id: 4) was read from stdin and put in the queue
+2024-03-19 20:03:49,503     A PROCESS: string 'WHAT?' (id: 3) was extracted from the queue
+2024-03-19 20:03:49,503     A PROCESS: string 'what?' (id: 3) was send to process B
+2024-03-19 20:03:49,503     B PROCESS: string 'what?' (id: 3) was received from process A
+2024-03-19 20:03:49,508     B PROCESS: string 'jung?' (id: 3) was send to main process
+2024-03-19 20:03:49,508  MAIN PROCESS: string 'jung?' (id: 3) was received from process B and printed in the stdout
+2024-03-19 20:03:53,177  MAIN PROCESS: string 'BIHH' (id: 5) was read from stdin and put in the queue
+2024-03-19 20:03:54,513     A PROCESS: string 'carti' (id: 4) was extracted from the queue
+2024-03-19 20:03:54,513     A PROCESS: string 'carti' (id: 4) was send to process B
+2024-03-19 20:03:54,513     B PROCESS: string 'carti' (id: 4) was received from process A
+2024-03-19 20:03:54,519     B PROCESS: string 'pnegv' (id: 4) was send to main process
+2024-03-19 20:03:54,519  MAIN PROCESS: string 'pnegv' (id: 4) was received from process B and printed in the stdout
+2024-03-19 20:03:54,701  MAIN PROCESS: string 'BIHH' (id: 6) was read from stdin and put in the queue
+2024-03-19 20:03:57,024  MAIN PROCESS: string 'BIHH' (id: 7) was read from stdin and put in the queue
+2024-03-19 20:03:58,641  MAIN PROCESS: string 'BIH' (id: 8) was read from stdin and put in the queue
+2024-03-19 20:03:59,524     A PROCESS: string 'BIHH' (id: 5) was extracted from the queue
+2024-03-19 20:03:59,524     A PROCESS: string 'bihh' (id: 5) was send to process B
+2024-03-19 20:03:59,525     B PROCESS: string 'bihh' (id: 5) was received from process A
+2024-03-19 20:03:59,531     B PROCESS: string 'ovuu' (id: 5) was send to main process
+2024-03-19 20:03:59,531  MAIN PROCESS: string 'ovuu' (id: 5) was received from process B and printed in the stdout
+2024-03-19 20:04:01,616  MAIN PROCESS: string 'WHAAAH]' (id: 9) was read from stdin and put in the queue
+2024-03-19 20:04:04,536     A PROCESS: string 'BIHH' (id: 6) was extracted from the queue
+2024-03-19 20:04:04,536     A PROCESS: string 'bihh' (id: 6) was send to process B
+2024-03-19 20:04:04,536     B PROCESS: string 'bihh' (id: 6) was received from process A
+2024-03-19 20:04:04,542     B PROCESS: string 'ovuu' (id: 6) was send to main process
+2024-03-19 20:04:04,542  MAIN PROCESS: string 'ovuu' (id: 6) was received from process B and printed in the stdout
+2024-03-19 20:04:09,540  MAIN PROCESS: string 'HUHHH' (id: 10) was read from stdin and put in the queue
+2024-03-19 20:04:09,547     A PROCESS: string 'BIHH' (id: 7) was extracted from the queue
+2024-03-19 20:04:09,547     A PROCESS: string 'bihh' (id: 7) was send to process B
+2024-03-19 20:04:09,547     B PROCESS: string 'bihh' (id: 7) was received from process A
+2024-03-19 20:04:09,548     B PROCESS: string 'ovuu' (id: 7) was send to main process
+2024-03-19 20:04:09,548  MAIN PROCESS: string 'ovuu' (id: 7) was received from process B and printed in the stdout
+2024-03-19 20:04:14,552     A PROCESS: string 'BIH' (id: 8) was extracted from the queue
+2024-03-19 20:04:14,553     A PROCESS: string 'bih' (id: 8) was send to process B
+2024-03-19 20:04:14,553     B PROCESS: string 'bih' (id: 8) was received from process A
+2024-03-19 20:04:14,553     B PROCESS: string 'ovu' (id: 8) was send to main process
+2024-03-19 20:04:14,554  MAIN PROCESS: string 'ovu' (id: 8) was received from process B and printed in the stdout
+2024-03-19 20:04:19,559     A PROCESS: string 'WHAAAH]' (id: 9) was extracted from the queue
+2024-03-19 20:04:19,559     A PROCESS: string 'whaaah]' (id: 9) was send to process B
+2024-03-19 20:04:19,560     B PROCESS: string 'whaaah]' (id: 9) was received from process A
+2024-03-19 20:04:19,565     B PROCESS: string 'junnnu]' (id: 9) was send to main process
+2024-03-19 20:04:19,565  MAIN PROCESS: string 'junnnu]' (id: 9) was received from process B and printed in the stdout
+2024-03-19 20:04:20,859  MAIN PROCESS: string 'SLAAATTT' (id: 11) was read from stdin and put in the queue
+2024-03-19 20:04:23,604  MAIN PROCESS: string 'WHAAAHHH' (id: 12) was read from stdin and put in the queue
+2024-03-19 20:04:24,570     A PROCESS: string 'HUHHH' (id: 10) was extracted from the queue
+2024-03-19 20:04:24,570     A PROCESS: string 'huhhh' (id: 10) was send to process B
+2024-03-19 20:04:24,571     B PROCESS: string 'huhhh' (id: 10) was received from process A
+2024-03-19 20:04:24,576     B PROCESS: string 'uhuuu' (id: 10) was send to main process
+2024-03-19 20:04:24,576  MAIN PROCESS: string 'uhuuu' (id: 10) was received from process B and printed in the stdout
+2024-03-19 20:04:29,581     A PROCESS: string 'SLAAATTT' (id: 11) was extracted from the queue
+2024-03-19 20:04:29,581     A PROCESS: string 'slaaattt' (id: 11) was send to process B
+2024-03-19 20:04:29,581     B PROCESS: string 'slaaattt' (id: 11) was received from process A
+2024-03-19 20:04:29,584     B PROCESS: string 'fynnnggg' (id: 11) was send to main process
+2024-03-19 20:04:29,585  MAIN PROCESS: string 'fynnnggg' (id: 11) was received from process B and printed in the stdout
+2024-03-19 20:04:34,586     A PROCESS: string 'WHAAAHHH' (id: 12) was extracted from the queue
+2024-03-19 20:04:34,587     A PROCESS: string 'whaaahhh' (id: 12) was send to process B
+2024-03-19 20:04:34,587     B PROCESS: string 'whaaahhh' (id: 12) was received from process A
+2024-03-19 20:04:34,593     B PROCESS: string 'junnnuuu' (id: 12) was send to main process
+2024-03-19 20:04:34,593  MAIN PROCESS: string 'junnnuuu' (id: 12) was received from process B and printed in the stdout
+2024-03-19 20:04:48,006  MAIN PROCESS: string 'YO PIERE U WANNA COME OUTA HERE' (id: 13) was read from stdin and put in the queue
+2024-03-19 20:04:48,006     A PROCESS: string 'YO PIERE U WANNA COME OUTA HERE' (id: 13) was extracted from the queue
+2024-03-19 20:04:48,006     A PROCESS: string 'yo piere u wanna come outa here' (id: 13) was send to process B
+2024-03-19 20:04:48,006     B PROCESS: string 'yo piere u wanna come outa here' (id: 13) was received from process A
+2024-03-19 20:04:48,006     B PROCESS: string 'lb cvrer h jnaan pbzr bhgn urer' (id: 13) was send to main process
+2024-03-19 20:04:48,006  MAIN PROCESS: string 'lb cvrer h jnaan pbzr bhgn urer' (id: 13) was received from process B and printed in the stdout
+2024-03-19 20:04:51,011  MAIN PROCESS: string 'WHAAAh' (id: 14) was read from stdin and put in the queue
+2024-03-19 20:04:53,011     A PROCESS: string 'WHAAAh' (id: 14) was extracted from the queue
+2024-03-19 20:04:53,012     A PROCESS: string 'whaaah' (id: 14) was send to process B
+2024-03-19 20:04:53,012     B PROCESS: string 'whaaah' (id: 14) was received from process A
+2024-03-19 20:04:53,018     B PROCESS: string 'junnnu' (id: 14) was send to main process
+2024-03-19 20:04:53,018  MAIN PROCESS: string 'junnnu' (id: 14) was received from process B and printed in the stdout
+2024-03-19 20:04:54,046  MAIN PROCESS: string 'whahaHH' (id: 15) was read from stdin and put in the queue
+2024-03-19 20:04:57,646  MAIN PROCESS: string 'WHAAH' (id: 16) was read from stdin and put in the queue
+2024-03-19 20:04:58,023     A PROCESS: string 'whahaHH' (id: 15) was extracted from the queue
+2024-03-19 20:04:58,023     A PROCESS: string 'whahahh' (id: 15) was send to process B
+2024-03-19 20:04:58,023     B PROCESS: string 'whahahh' (id: 15) was received from process A
+2024-03-19 20:04:58,029     B PROCESS: string 'jununuu' (id: 15) was send to main process
+2024-03-19 20:04:58,029  MAIN PROCESS: string 'jununuu' (id: 15) was received from process B and printed in the stdout
+2024-03-19 20:05:03,028     A PROCESS: string 'WHAAH' (id: 16) was extracted from the queue
+2024-03-19 20:05:03,029     A PROCESS: string 'whaah' (id: 16) was send to process B
+2024-03-19 20:05:03,029     B PROCESS: string 'whaah' (id: 16) was received from process A
+2024-03-19 20:05:03,035     B PROCESS: string 'junnu' (id: 16) was send to main process
+2024-03-19 20:05:03,035  MAIN PROCESS: string 'junnu' (id: 16) was received from process B and printed in the stdout
+2024-03-19 20:05:09,145  MAIN PROCESS: string 'bih' (id: 17) was read from stdin and put in the queue
+2024-03-19 20:05:09,146     A PROCESS: string 'bih' (id: 17) was extracted from the queue
+2024-03-19 20:05:09,146     A PROCESS: string 'bih' (id: 17) was send to process B
+2024-03-19 20:05:09,146     B PROCESS: string 'bih' (id: 17) was received from process A
+2024-03-19 20:05:09,146     B PROCESS: string 'ovu' (id: 17) was send to main process
+2024-03-19 20:05:09,146  MAIN PROCESS: string 'ovu' (id: 17) was received from process B and printed in the stdout
+2024-03-19 20:05:10,767  MAIN PROCESS: string 'what' (id: 18) was read from stdin and put in the queue
+2024-03-19 20:05:14,151     A PROCESS: string 'what' (id: 18) was extracted from the queue
+2024-03-19 20:05:14,151     A PROCESS: string 'what' (id: 18) was send to process B
+2024-03-19 20:05:14,152     B PROCESS: string 'what' (id: 18) was received from process A
+2024-03-19 20:05:14,157     B PROCESS: string 'jung' (id: 18) was send to main process
+2024-03-19 20:05:14,157  MAIN PROCESS: string 'jung' (id: 18) was received from process B and printed in the stdout
+2024-03-19 20:05:16,255  MAIN PROCESS: string 'homixide' (id: 19) was read from stdin and put in the queue
+2024-03-19 20:05:19,159     A PROCESS: string 'homixide' (id: 19) was extracted from the queue
+2024-03-19 20:05:19,160     A PROCESS: string 'homixide' (id: 19) was send to process B
+2024-03-19 20:05:19,160     B PROCESS: string 'homixide' (id: 19) was received from process A
+2024-03-19 20:05:19,166     B PROCESS: string 'ubzvkvqr' (id: 19) was send to main process
+2024-03-19 20:05:19,166  MAIN PROCESS: string 'ubzvkvqr' (id: 19) was received from process B and printed in the stdout
+2024-03-19 20:05:19,487  MAIN PROCESS: string 'homi1xde' (id: 20) was read from stdin and put in the queue
+2024-03-19 20:05:22,559  MAIN PROCESS: string 'whahahha' (id: 21) was read from stdin and put in the queue
+2024-03-19 20:05:24,171     A PROCESS: string 'homi1xde' (id: 20) was extracted from the queue
+2024-03-19 20:05:24,171     A PROCESS: string 'homi1xde' (id: 20) was send to process B
+2024-03-19 20:05:24,171     B PROCESS: string 'homi1xde' (id: 20) was received from process A
+2024-03-19 20:05:24,177     B PROCESS: string 'ubzv1kqr' (id: 20) was send to main process
+2024-03-19 20:05:24,177  MAIN PROCESS: string 'ubzv1kqr' (id: 20) was received from process B and printed in the stdout
+2024-03-19 20:05:24,830  MAIN PROCESS: string 'what' (id: 22) was read from stdin and put in the queue
+2024-03-19 20:05:26,857  MAIN PROCESS: string 'whahh' (id: 23) was read from stdin and put in the queue
+2024-03-19 20:05:28,725  MAIN PROCESS: string 'WHAHH' (id: 24) was read from stdin and put in the queue
+2024-03-19 20:05:29,182     A PROCESS: string 'whahahha' (id: 21) was extracted from the queue
+2024-03-19 20:05:29,182     A PROCESS: string 'whahahha' (id: 21) was send to process B
+2024-03-19 20:05:29,182     B PROCESS: string 'whahahha' (id: 21) was received from process A
+2024-03-19 20:05:29,182     B PROCESS: string 'jununuun' (id: 21) was send to main process
+2024-03-19 20:05:29,182  MAIN PROCESS: string 'jununuun' (id: 21) was received from process B and printed in the stdout
+2024-03-19 20:05:34,187     A PROCESS: string 'what' (id: 22) was extracted from the queue
+2024-03-19 20:05:34,188     A PROCESS: string 'what' (id: 22) was send to process B
+2024-03-19 20:05:34,188     B PROCESS: string 'what' (id: 22) was received from process A
+2024-03-19 20:05:34,193     B PROCESS: string 'jung' (id: 22) was send to main process
+2024-03-19 20:05:34,193  MAIN PROCESS: string 'jung' (id: 22) was received from process B and printed in the stdout
+2024-03-19 20:05:39,193     A PROCESS: string 'whahh' (id: 23) was extracted from the queue
+2024-03-19 20:05:39,193     A PROCESS: string 'whahh' (id: 23) was send to process B
+2024-03-19 20:05:39,193     B PROCESS: string 'whahh' (id: 23) was received from process A
+2024-03-19 20:05:39,199     B PROCESS: string 'junuu' (id: 23) was send to main process
+2024-03-19 20:05:39,199  MAIN PROCESS: string 'junuu' (id: 23) was received from process B and printed in the stdout
+2024-03-19 20:05:44,198     A PROCESS: string 'WHAHH' (id: 24) was extracted from the queue
+2024-03-19 20:05:44,199     A PROCESS: string 'whahh' (id: 24) was send to process B
+2024-03-19 20:05:44,199     B PROCESS: string 'whahh' (id: 24) was received from process A
+2024-03-19 20:05:44,205     B PROCESS: string 'junuu' (id: 24) was send to main process
+2024-03-19 20:05:44,205  MAIN PROCESS: string 'junuu' (id: 24) was received from process B and printed in the stdout
+2024-03-19 20:06:19,328  MAIN PROCESS: string 'KKK' (id: 25) was read from stdin and put in the queue
+2024-03-19 20:06:19,328     A PROCESS: string 'KKK' (id: 25) was extracted from the queue
+2024-03-19 20:06:19,329     A PROCESS: string 'kkk' (id: 25) was send to process B
+2024-03-19 20:06:19,329     B PROCESS: string 'kkk' (id: 25) was received from process A
+2024-03-19 20:06:19,329     B PROCESS: string 'xxx' (id: 25) was send to main process
+2024-03-19 20:06:19,329  MAIN PROCESS: string 'xxx' (id: 25) was received from process B and printed in the stdout
+2024-03-19 20:06:20,590  MAIN PROCESS: string 'KKK' (id: 26) was read from stdin and put in the queue
+2024-03-19 20:06:21,948  MAIN PROCESS: string 'WHAHH' (id: 27) was read from stdin and put in the queue
+2024-03-19 20:06:23,991  MAIN PROCESS: string 'WHAAH' (id: 28) was read from stdin and put in the queue
+2024-03-19 20:06:24,334     A PROCESS: string 'KKK' (id: 26) was extracted from the queue
+2024-03-19 20:06:24,334     A PROCESS: string 'kkk' (id: 26) was send to process B
+2024-03-19 20:06:24,335     B PROCESS: string 'kkk' (id: 26) was received from process A
+2024-03-19 20:06:24,341     B PROCESS: string 'xxx' (id: 26) was send to main process
+2024-03-19 20:06:24,341  MAIN PROCESS: string 'xxx' (id: 26) was received from process B and printed in the stdout
+2024-03-19 20:06:26,373  MAIN PROCESS: string 'WHAAH' (id: 29) was read from stdin and put in the queue
+2024-03-19 20:06:29,340     A PROCESS: string 'WHAHH' (id: 27) was extracted from the queue
+2024-03-19 20:06:29,340     A PROCESS: string 'whahh' (id: 27) was send to process B
+2024-03-19 20:06:29,340     B PROCESS: string 'whahh' (id: 27) was received from process A
+2024-03-19 20:06:29,340     B PROCESS: string 'junuu' (id: 27) was send to main process
+2024-03-19 20:06:29,341  MAIN PROCESS: string 'junuu' (id: 27) was received from process B and printed in the stdout
+2024-03-19 20:06:29,418  MAIN PROCESS: string 'BUH BUH' (id: 30) was read from stdin and put in the queue
+2024-03-19 20:06:30,963  MAIN PROCESS: string 'BUH' (id: 31) was read from stdin and put in the queue
+2024-03-19 20:06:31,967  MAIN PROCESS: string 'BUH' (id: 32) was read from stdin and put in the queue
+2024-03-19 20:06:34,346     A PROCESS: string 'WHAAH' (id: 28) was extracted from the queue
+2024-03-19 20:06:34,346     A PROCESS: string 'whaah' (id: 28) was send to process B
+2024-03-19 20:06:34,346     B PROCESS: string 'whaah' (id: 28) was received from process A
+2024-03-19 20:06:34,346     B PROCESS: string 'junnu' (id: 28) was send to main process
+2024-03-19 20:06:34,346  MAIN PROCESS: string 'junnu' (id: 28) was received from process B and printed in the stdout
+2024-03-19 20:06:37,930  MAIN PROCESS: string 'KK' (id: 33) was read from stdin and put in the queue
+2024-03-19 20:06:39,351     A PROCESS: string 'WHAAH' (id: 29) was extracted from the queue
+2024-03-19 20:06:39,351     A PROCESS: string 'whaah' (id: 29) was send to process B
+2024-03-19 20:06:39,352     B PROCESS: string 'whaah' (id: 29) was received from process A
+2024-03-19 20:06:39,357     B PROCESS: string 'junnu' (id: 29) was send to main process
+2024-03-19 20:06:39,358  MAIN PROCESS: string 'junnu' (id: 29) was received from process B and printed in the stdout
+2024-03-19 20:06:39,482  MAIN PROCESS: string 'JJJ' (id: 34) was read from stdin and put in the queue
+2024-03-19 20:06:42,178  MAIN PROCESS: string 'WHAAH' (id: 35) was read from stdin and put in the queue
+2024-03-19 20:06:44,363     A PROCESS: string 'BUH BUH' (id: 30) was extracted from the queue
+2024-03-19 20:06:44,363     A PROCESS: string 'buh buh' (id: 30) was send to process B
+2024-03-19 20:06:44,363     B PROCESS: string 'buh buh' (id: 30) was received from process A
+2024-03-19 20:06:44,368     B PROCESS: string 'ohu ohu' (id: 30) was send to main process
+2024-03-19 20:06:44,368  MAIN PROCESS: string 'ohu ohu' (id: 30) was received from process B and printed in the stdout
+2024-03-19 20:06:49,368     A PROCESS: string 'BUH' (id: 31) was extracted from the queue
+2024-03-19 20:06:49,369     A PROCESS: string 'buh' (id: 31) was send to process B
+2024-03-19 20:06:49,369     B PROCESS: string 'buh' (id: 31) was received from process A
+2024-03-19 20:06:49,374     B PROCESS: string 'ohu' (id: 31) was send to main process
+2024-03-19 20:06:49,374  MAIN PROCESS: string 'ohu' (id: 31) was received from process B and printed in the stdout
+2024-03-19 20:06:54,374     A PROCESS: string 'BUH' (id: 32) was extracted from the queue
+2024-03-19 20:06:54,374     A PROCESS: string 'buh' (id: 32) was send to process B
+2024-03-19 20:06:54,374     B PROCESS: string 'buh' (id: 32) was received from process A
+2024-03-19 20:06:54,380     B PROCESS: string 'ohu' (id: 32) was send to main process
+2024-03-19 20:06:54,380  MAIN PROCESS: string 'ohu' (id: 32) was received from process B and printed in the stdout
+2024-03-19 20:06:59,385     A PROCESS: string 'KK' (id: 33) was extracted from the queue
+2024-03-19 20:06:59,386     A PROCESS: string 'kk' (id: 33) was send to process B
+2024-03-19 20:06:59,386     B PROCESS: string 'kk' (id: 33) was received from process A
+2024-03-19 20:06:59,391     B PROCESS: string 'xx' (id: 33) was send to main process
+2024-03-19 20:06:59,392  MAIN PROCESS: string 'xx' (id: 33) was received from process B and printed in the stdout
+2024-03-19 20:07:04,395     A PROCESS: string 'JJJ' (id: 34) was extracted from the queue
+2024-03-19 20:07:04,395     A PROCESS: string 'jjj' (id: 34) was send to process B
+2024-03-19 20:07:04,396     B PROCESS: string 'jjj' (id: 34) was received from process A
+2024-03-19 20:07:04,401     B PROCESS: string 'www' (id: 34) was send to main process
+2024-03-19 20:07:04,401  MAIN PROCESS: string 'www' (id: 34) was received from process B and printed in the stdout
+2024-03-19 20:07:06,970  MAIN PROCESS: string 'WHAAHHA' (id: 36) was read from stdin and put in the queue
+2024-03-19 20:07:09,406     A PROCESS: string 'WHAAH' (id: 35) was extracted from the queue
+2024-03-19 20:07:09,406     A PROCESS: string 'whaah' (id: 35) was send to process B
+2024-03-19 20:07:09,407     B PROCESS: string 'whaah' (id: 35) was received from process A
+2024-03-19 20:07:09,407     B PROCESS: string 'junnu' (id: 35) was send to main process
+2024-03-19 20:07:09,407  MAIN PROCESS: string 'junnu' (id: 35) was received from process B and printed in the stdout
+2024-03-19 20:07:10,025  MAIN PROCESS: string 'WHAAH' (id: 37) was read from stdin and put in the queue
+2024-03-19 20:07:12,559  MAIN PROCESS: string 'WHAAH' (id: 38) was read from stdin and put in the queue
+2024-03-19 20:07:14,412     A PROCESS: string 'WHAAHHA' (id: 36) was extracted from the queue
+2024-03-19 20:07:14,412     A PROCESS: string 'whaahha' (id: 36) was send to process B
+2024-03-19 20:07:14,413     B PROCESS: string 'whaahha' (id: 36) was received from process A
+2024-03-19 20:07:14,413     B PROCESS: string 'junnuun' (id: 36) was send to main process
+2024-03-19 20:07:14,413  MAIN PROCESS: string 'junnuun' (id: 36) was received from process B and printed in the stdout
+2024-03-19 20:07:16,514  MAIN PROCESS: string 'YEAH' (id: 39) was read from stdin and put in the queue
+2024-03-19 20:07:19,075  MAIN PROCESS: string 'WHAHH' (id: 40) was read from stdin and put in the queue
+2024-03-19 20:07:19,418     A PROCESS: string 'WHAAH' (id: 37) was extracted from the queue
+2024-03-19 20:07:19,418     A PROCESS: string 'whaah' (id: 37) was send to process B
+2024-03-19 20:07:19,418     B PROCESS: string 'whaah' (id: 37) was received from process A
+2024-03-19 20:07:19,424     B PROCESS: string 'junnu' (id: 37) was send to main process
+2024-03-19 20:07:19,424  MAIN PROCESS: string 'junnu' (id: 37) was received from process B and printed in the stdout
+2024-03-19 20:07:24,429     A PROCESS: string 'WHAAH' (id: 38) was extracted from the queue
+2024-03-19 20:07:24,429     A PROCESS: string 'whaah' (id: 38) was send to process B
+2024-03-19 20:07:24,430     B PROCESS: string 'whaah' (id: 38) was received from process A
+2024-03-19 20:07:24,435     B PROCESS: string 'junnu' (id: 38) was send to main process
+2024-03-19 20:07:24,435  MAIN PROCESS: string 'junnu' (id: 38) was received from process B and printed in the stdout
+2024-03-19 20:07:29,440     A PROCESS: string 'YEAH' (id: 39) was extracted from the queue
+2024-03-19 20:07:29,441     A PROCESS: string 'yeah' (id: 39) was send to process B
+2024-03-19 20:07:29,441     B PROCESS: string 'yeah' (id: 39) was received from process A
+2024-03-19 20:07:29,446     B PROCESS: string 'lrnu' (id: 39) was send to main process
+2024-03-19 20:07:29,446  MAIN PROCESS: string 'lrnu' (id: 39) was received from process B and printed in the stdout
+2024-03-19 20:07:34,446     A PROCESS: string 'WHAHH' (id: 40) was extracted from the queue
+2024-03-19 20:07:34,446     A PROCESS: string 'whahh' (id: 40) was send to process B
+2024-03-19 20:07:34,446     B PROCESS: string 'whahh' (id: 40) was received from process A
+2024-03-19 20:07:34,452     B PROCESS: string 'junuu' (id: 40) was send to main process
+2024-03-19 20:07:34,452  MAIN PROCESS: string 'junuu' (id: 40) was received from process B and printed in the stdout

@@ -1,0 +1,4 @@
+Measurements for n=33:
+Synchronous Execution: 5.785066843032837
+Threading Execution: 5.947339296340942
+Multiprocessing Execution: 1.342395305633545
